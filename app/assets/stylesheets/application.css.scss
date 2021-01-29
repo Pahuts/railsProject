@@ -32,6 +32,24 @@ h1, h2, h3 {
   border: none;
 }
 
+.navbar-default .navbar-brand { // we add the navbar-default because css has it specificity rules.
+  color:white;
+}
+
+.navbar-default .navbar-nav > li > a { // the arrows mean the children direct to this element
+  color:white;
+}
+
+.navbar-default .navbar-brand:hover {
+  color:white;
+  opacity: 0.75;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color:white;
+  opacity: 0.75;  
+}
+
 .home-callout {
   // this makes our page look modern and clean
   color: white;
