@@ -28,12 +28,17 @@
             <li class="nav-item active">
               <li>
                 <%= link_to about_path, class: "nav-link" do %>
-                  <span class="sr-only">(current)</span>
                   About
                 <% end %>
-              </li> <!-- this is how you link in rails -->
-              <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
+              </li><!-- this is how you link in rails -->
+              <li>
+                <%= link_to new_contact_path, class: "nav-link" do %>
+                  Contact Us
+                <% end %>
+              </li>
+              
+
+              <!-- 
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
             </li>
