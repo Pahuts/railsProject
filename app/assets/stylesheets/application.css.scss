@@ -13,7 +13,6 @@
  *= require_tree .
  *= require_self
  */
-
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 @import "font-awesome-sprockets";
@@ -47,6 +46,17 @@ h1, h2, h3 {
      color:white;
      opacity: 0.75;
    }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border:none;
+  &:hover, &:focus {
+    background-color:#00c6ff;
+  }
 }
 
 // Home Page Styles

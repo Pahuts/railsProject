@@ -27,8 +27,11 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 # Use Twitter Bootstrap library for front-end UI and Layout
-gem 'bootstrap-sass', '3.3.7'
-
+# gem 'bootstrap-sass', '3.3.7'
+# latest bootstrap
+# gem 'bootstrap-sass', '3.3.7'
+# jquery rails
+# gem 'jquery-rails'
 # Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '~> 4.6.2'
 
