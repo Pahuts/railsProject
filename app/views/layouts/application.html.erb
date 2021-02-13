@@ -15,16 +15,16 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <%= link_to root_path, class: "navbar-brand" do %>
-          <i class="fa fa-people-arrows"></i>
-          DevMatch
-        <% end %> <!-- the equal sign is only when you want to inject things into rails. into embedded ruby -->
+          <%= link_to root_path, class: "navbar-brand" do %>
+            <i class="fa fa-people-arrows"></i>
+            DevMatch
+          <% end %> <!-- the equal sign is only when you want to inject things into rails. into embedded ruby -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="fas fa-bars"></span>
         </button>
       
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul class="navbar-nav ">
+          <ul class="navbar-nav">
             <li class="nav-item active">
               <li>
                 <%= link_to about_path, class: "nav-link" do %>
